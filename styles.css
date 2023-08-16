@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+#search-container {
+    text-align: center;
+    padding: 50px;
+}
+
+#google-logo {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+#search-form {
+    display: inline-block;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#search-bar {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+}
+
+#buttons {
+    margin-top: 20px;
+}
+
+#search-button, #lucky-button {
+    background-color: #4285F4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: #4285F4;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Add specific styling for Google Image and Advanced Search pages if needed */
